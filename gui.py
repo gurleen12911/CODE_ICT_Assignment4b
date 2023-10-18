@@ -13,6 +13,8 @@ def create_gui(my_list):
         if not found:
             messagebox.showinfo("Search Result", f"Element '{element}' not found in the list.")
 
+    #functions for menu  choices
+
     def add_element_gui():
         element = add_entry.get()
         my_list.append(element)
