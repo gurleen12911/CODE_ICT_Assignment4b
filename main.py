@@ -12,6 +12,7 @@ my_list = [random.randint(1, 100) for _ in range(10)]
 my_list += [random.uniform(1.0, 100.0) for _ in range(10)]
 my_list += [f"String {random.randint(1, 10)}" for _ in range(10)]
 
+#added gui
 def create_gui_requested():
     choice = input("Do you want to use the GUI (Y/N)? ").strip().lower()
     return choice == "y"
