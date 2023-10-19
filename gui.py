@@ -33,6 +33,7 @@ def create_gui(my_list):
                 for item in my_list:
                     listbox.insert(tk.END, str(item))
             else:
+               
                 messagebox.showinfo("Removal Result", f"Element '{element}' not found in the list.")
 
 
