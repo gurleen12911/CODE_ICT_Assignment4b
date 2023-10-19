@@ -1,5 +1,3 @@
-# display.py
-
 def display_list(my_list):
     print("List contents:")
     for element in my_list:
